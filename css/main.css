@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+} /* Remove body margins */
+:root {
+  --main-red: #eb0029;
+  --main-white: #ffffff;
+  --main-grey: #cccccc;
+  --main-black: #050505;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 367px;
+}
+
+.header-form {
+  background-image: url('../img/Rectangle.png');
+  width: 367px;
+  text-align: center;
+  height: 134px;
+}
+.header-form-text {
+  padding: 20px;
+}
+
+.header-form h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--main-white);
+}
+
+.btn-google {
+  background: linear-gradient(8.52deg, var(--main-white) 0%, #eeeeee 100%);
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  width: 307px;
+  height: 46px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.singup-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: var(--main-black);
+}
+
+.logo-google-btn {
+  height: 18px;
+  margin-top: 4.03%;
+  margin-right: 2%;
+}
+.line-container {
+  margin-top: 10%;
+  width: 80%;
+}
+hr {
+  border: 1px solid #e5e5e5;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.line-text {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 15.4em;
+  margin-left: -1.5em;
+  background-color: white;
+  width: 3em;
+  text-align: center;
+}
+
+.sing-up-form {
+  width: 80%;
+}
+.input {
+  color: var(--main-grey);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+
+  font-size: 12px;
+  line-height: 15px;
+  height: 50px;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--main-red);
+  transition: 0.9s;
+}
+.inputWithIcon input[type='text'],
+input[type='email'],
+input[type='password'] {
+  padding-left: 25px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: -11px;
+  top: 8px;
+  padding: 9px 8px;
+  color: var(--main-grey);
+}
+
+.sing-up-btn {
+  margin-top: 10%;
+  background: var(--main-red);
+  border-radius: 100px;
+  cursor: pointer;
+  height: 48px;
+  width: 307px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+
+  color: var(--main-white);
+}
+
+.login-footer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.login-footer p {
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--main-black);
+}
+
+.login-footer .bold-text {
+  font-weight: bold;
+  margin: auto;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--main-red);
+  cursor: pointer;
+}
+.login-hand {
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+
+/* profile css */
+
+.menu {
+  font-size: 24px;
+  width: 100%;
+  display: flex;
+  height: 60px;
+  background: var(--main-white);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menu i {
+  cursor: pointer;
+}
+.profile-card div {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rating {
+  color: #ffd234;
+  font-size: 22px;
+  margin-top: 10%;
+}
+
+.title-user-info {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  color: var(--main-black);
+}
+.subtitle-user-info {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 22px;
+  color: var(--main-black);
+}
+
+.city-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--main-red);
+}
+.city-container {
+  margin-top: -30px;
+}
+
+.user-description {
+  width: 335px;
+  height: 64px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a0a0a0;
+}
+
+.car-container {
+  width: 334px;
+  height: 71px;
+  background: #f4f4f4;
+  border-radius: 5px;
+  display: flex;
+}
+.car-info {
+  padding: 0 15px;
+  display: flex;
+}
+
+.section-title {
+  width: 335px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.car-detils {
+  font-size: 12px;
+  line-height: 15px;
+  padding: 0 10px;
+}
+
+.user-gallery {
+  width: 334px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-container {
+  width: 334px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 12px;
+  letter-spacing: -0.1px;
+  color: #151515;
+}
+
+.price-container span {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.1px;
+  color: #151515;
+}
