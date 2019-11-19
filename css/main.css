@@ -131,7 +131,7 @@ input[type='password'] {
   font-weight: bold;
   font-size: 14px;
   line-height: 13px;
-
+  border-color: transparent;
   color: var(--main-white);
 }
 
